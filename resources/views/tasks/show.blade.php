@@ -1,4 +1,16 @@
-<!doctype html>
+<?php
+/*
+Filename: show.blade.php
+Author: RDH
+Contributors: RDH
+Created: 8/10/2017
+Last Edit: 8/10/2017
+Last Edited By: RDH
+*/
+
+?>
+
+        <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +20,8 @@
 </head>
 <body>
 
-    <ul>
-        @foreach ($tasks as $task)
-
-            <li>{{ $task->body }}</li>
-
-        @endforeach
-    </ul>
+<ul>
+    <h1>{{ $task->body }}</h1>
+</ul>
 </body>
 </html>
