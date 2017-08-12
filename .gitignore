@@ -50,3 +50,4 @@ Temporary Items
 .idea/
 vendor/
 tests/
+node_modules/
